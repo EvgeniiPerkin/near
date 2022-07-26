@@ -1,5 +1,5 @@
 # near
 Installation guide NEAR. Stake Wars: Episode III
-''' bash
+``` bash
 cd /home/user/test
-'''
+```
