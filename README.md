@@ -229,8 +229,8 @@ journalctl -n 100 -f -u neard | ccze -A
 near call factory.shardnet.near create_staking_pool '{"staking_pool_id": "<pool id>", "owner_id": "<accountId>", "stake_public_key": "<public key>", "reward_fee_fraction": {"numerator": 5, "denominator": 100}, "code_hash":"DD428g9eqLL8fWUxv8QSpVFzyHi1Qd16P8ephYCTmMSZ"}' --accountId="<accountId>" --amount=450 --gas=300000000000000
 ```
 Замените заначения в ковычках <> на свои данные
-* **Pool ID**: Имя стейкинг пула. Пример: x50capital
-* **Owner ID**: Shardnet аккаунт. Пример: x50.shardnet.near
+* **Pool ID**: Имя стейкинг пула. Пример: node
+* **Owner ID**: Shardnet аккаунт. Пример: node.shardnet.near
 * **Public Key**: public key из файла validator_key.json
 * **5**: Комиссия, которую будет взимать пул
 * **Account Id**: Shardnet аккаунт. Обычно совпадает с Owner ID
